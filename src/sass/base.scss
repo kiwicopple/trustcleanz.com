@@ -41,11 +41,11 @@ h1, h2, h3, h4, h5, h6 {
   color: $red;
 }
 ::selection { // keep this separate from below
-  background: #FF4F19;
+  background: $blue;
   color: #fff;
 }
 ::-moz-selection { // keep this separate from above
-  background: #FF4F19;
+  background: $blue;
   color: #fff;
 }
 
@@ -88,4 +88,12 @@ figure.is-centered {
 }
 .is-grey.hero {
   background: $blue-grey;
+}
+
+.separator {
+  border-top: 2px solid $blue;
+  width: 15%;
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
